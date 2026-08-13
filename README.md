@@ -1,6 +1,6 @@
 # Hello there
 
-This is a monorepo containing plugins published under my Modrinth account. Each directory is a releasable plugin with its own versions. `WoolyCommon` is a shared library shaded into every plugin JAR, and is therefore never loaded by Paper.
+This is a monorepo containing plugins published under my [Modrinth](https://modrinth.com/user/Woolyenough) account. Each directory is a releasable plugin with its own versions. `WoolyCommon` is a shared library shaded into every plugin JAR, and is therefore never loaded by Paper.
 
 <details>
 <summary>List of plugins</summary>

@@ -1,0 +1,14 @@
+# How protected should frozen players be?
+# Options:
+#    "none" - takes damage as usual
+#    "pvp" - protected from just other players
+#    "invincible" - protected from all damage
+protection_level: "invincible"
+
+# If a player logs out when frozen, should they remain frozen when they log back in?
+persist_across_relog: true
+
+# Commands to run (as console) when a player logs out while frozen.
+# This plugin's own placeholder is [username]; PlaceholderAPI placeholders also work
+log_out_commands:
+  - "say [username] logged out while frozen!"

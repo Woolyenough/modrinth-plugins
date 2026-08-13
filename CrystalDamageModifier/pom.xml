@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent><groupId>wtf.wooly</groupId><artifactId>modrinth-plugins</artifactId><version>1.0.0-SNAPSHOT</version></parent>
+    <artifactId>crystal-damage-modifier</artifactId>
+    <version>1.2.0</version>
+    <name>CrystalDamageModifier</name>
+    <description>Configurable End Crystal and Respawn Anchor explosion damage.</description>
+    <url>https://modrinth.com/plugin/crystal-damage-modifier</url>
+    <scm><url>https://github.com/Woolyenough/modrinth-plugins/tree/master/CrystalDamageModifier</url></scm>
+    <dependencies>
+        <dependency><groupId>wtf.wooly</groupId><artifactId>wooly-common</artifactId><version>${project.parent.version}</version></dependency>
+        <dependency><groupId>io.papermc.paper</groupId><artifactId>paper-api</artifactId><version>${paper.version}</version><scope>provided</scope></dependency>
+    </dependencies>
+    <build><resources><resource><directory>src/main/resources</directory><filtering>true</filtering></resource></resources><plugins><plugin><groupId>org.apache.maven.plugins</groupId><artifactId>maven-compiler-plugin</artifactId></plugin><plugin><groupId>org.apache.maven.plugins</groupId><artifactId>maven-shade-plugin</artifactId></plugin><plugin><groupId>org.apache.maven.plugins</groupId><artifactId>maven-enforcer-plugin</artifactId></plugin></plugins></build>
+</project>

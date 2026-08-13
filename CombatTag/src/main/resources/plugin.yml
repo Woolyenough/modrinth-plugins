@@ -1,0 +1,13 @@
+name: CombatTag
+version: '${project.version}'
+main: wtf.wooly.combattag.CombatTag
+api-version: '1.21'
+authors: [Woolyenough]
+website: https://modrinth.com/project/combat-tag
+source: https://github.com/Woolyenough/modrinth-plugins/tree/master/CombatTag
+softdepend: [PlaceholderAPI]
+
+permissions:
+  combattag.admin:
+    description: Grants access to CombatTag admin commands
+    default: op

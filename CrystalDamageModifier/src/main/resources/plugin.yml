@@ -1,0 +1,13 @@
+name: CrystalDamageModifier
+version: '${project.version}'
+main: wtf.wooly.crystaldamagemodifier.CrystalDamageModifier
+api-version: '1.21'
+authors: [Woolyenough]
+description: Damage modifier for end crystals and respawn anchors
+website: https://modrinth.com/plugin/crystal-damage-modifier
+source: https://github.com/Woolyenough/modrinth-plugins/tree/master/CrystalDamageModifier
+
+permissions:
+  crystaldamage.admin:
+    description: Grants access to CrystalDamageModifier admin commands
+    default: op

@@ -1,0 +1,6 @@
+# All messages use MiniMessage: https://docs.advntr.dev/minimessage/format.html
+# This plugin's own placeholders are written in square brackets, e.g. [factor].
+damage-factors-header: "<green>Explosion damage factors:"
+damage-factor-entry: "<grey>- [type]: <white>[factor]"
+config-reloaded: "<green>Configuration reloaded."
+damage-factor-set: "<green>Damage factor for [type] set to [factor]."

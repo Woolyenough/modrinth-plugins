@@ -1,0 +1,17 @@
+name: FlySpeed
+version: '${project.version}'
+main: wtf.wooly.flyspeed.FlySpeed
+api-version: '1.21'
+prefix: FlySpeed
+authors: [Woolyenough]
+description: Easily change your flying speed.
+website: https://modrinth.com/plugin/fly-speed
+source: https://github.com/Woolyenough/modrinth-plugins/tree/master/FlySpeed
+
+permissions:
+  fs.use:
+    description: Allows using /fly-speed to change your own fly speed
+    default: op
+  fs.others:
+    description: Allows changing another player's fly speed
+    default: op

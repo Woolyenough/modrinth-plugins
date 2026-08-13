@@ -1,0 +1,19 @@
+name: LoginCooldown
+version: '${project.version}'
+main: wtf.wooly.logincooldown.LoginCooldown
+api-version: '1.21'
+authors: [Woolyenough]
+description: Prevent players from throttling connection and spamming chat with join & leave messages
+website: https://modrinth.com/plugin/login-cooldown
+source: https://github.com/Woolyenough/modrinth-plugins/tree/master/LoginCooldown
+
+permissions:
+  logincooldown.admin:
+    description: Grants access to LoginCooldown admin commands
+    default: op
+  logincooldown.notify:
+    description: Receive notifications when a player is blocked from joining
+    default: op
+  logincooldown.bypass:
+    description: Exempt from the login cooldown
+    default: op

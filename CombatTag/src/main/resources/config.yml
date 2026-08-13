@@ -1,0 +1,34 @@
+# Enable the plugin's features?
+enabled: true
+
+combat-duration: 20.0
+
+# Enabled: a player's combat status ends the moment the opponent who tagged them leaves or dies.
+#          If several players tagged them, it ends once the last of those opponents is gone.
+# Disabled: they stay in combat until the timer runs out, whatever happens to their opponents
+end-combat-when-opponent-gone: true
+
+# Enabled: if player leaves while in combat, they die and drop their items
+kill-on-quit: true
+
+# Only used when 'kill-on-quit' is true.
+# Enabled: only kill them when the disconnect was their own doing. Players kicked by an admin/plugin etc. keep their stuff.
+kill-on-quit-only-if-at-fault: true
+
+# Only used when 'kill-on-quit' is true.
+# Enabled: replace vanilla death message with the 'combat-logged-out' message (messages.yml) when player logs out in combat.
+custom-kill-message-on-leave: true
+
+# Enable the command blocker?
+enable-command-blocker: true
+command-blocker:
+  # Enabled: if command has a colon in (e.g. /plugin:spawn), it will ignore the text before the colon, and only check it as '/spawn'
+  bypass-colons: true
+
+  # Enabled: each whole word must match (e.g., `/warp spawn` will block `/warp spawn` but not `/warp1` or `/warp spawn1`)
+  match-entire-words: true
+
+  blocked-cmds:
+    - "/warp spawn"
+    - "/home"
+    - "/tpa"

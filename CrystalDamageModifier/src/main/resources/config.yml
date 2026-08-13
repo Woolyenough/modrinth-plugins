@@ -1,0 +1,5 @@
+# Change damage of end crystal & respawn anchors
+# Multiple (e.g., 0.5 for half damage, 2.0 for double damage)
+damage-factors:
+  end-crystal: 1.0
+  respawn-anchor: 1.0

@@ -1,0 +1,13 @@
+# Uses MiniMessage: https://docs.advntr.dev/minimessage/format.html
+motd:
+  line1: "<red>First <gradient:#aa0000:#0000aa>line</gradient>"
+  line2: "<blue><u>Second</u> line"
+
+# Uses legacy colour codes (e.g., §a, §1)
+enable_hover_message: true
+player_hover_message:
+  - "§a§lFirst line"
+  - "§cSecond line"
+
+# Set -1 to leave unchanged
+max_players: 50

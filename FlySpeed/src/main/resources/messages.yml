@@ -1,0 +1,6 @@
+# All messages use MiniMessage: https://docs.advntr.dev/minimessage/format.html
+# This plugin's own placeholders are written in square brackets, e.g. [speed].
+prefix: "<#5ea5ff>FlySpeed <dark_grey>» "
+console-needs-player: "<#ff6b6b>Console must specify a player: <#ffcc4d>/fs <speed> <player>"
+speed-set: "<#7ee8a0>[target] <#a8d8ea>fly speed set to <#7ee8a0>[speed]<#a8d8ea>."
+usage: "<grey>Usage: <#ffcc4d>/fs <speed>[player-argument]"

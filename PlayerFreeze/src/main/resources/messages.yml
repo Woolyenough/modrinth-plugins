@@ -1,0 +1,16 @@
+# All messages use MiniMessage: https://docs.advntr.dev/minimessage/format.html
+# This plugin's own placeholders are written in square brackets, e.g. [player].
+currently-frozen: "<#ff4a4a>You are frozen!"
+frozen: "<#ff4a4a>You have been frozen by <#f0f0f0>[invoker]<#ff4a4a>! Please await further instructions."
+unfrozen: "<#5ae19f>You have been unfrozen by <#f0f0f0>[invoker]<#5ae19f>!"
+frozen-invoker: "<#5ae19f>You have frozen <#f0f0f0>[player]<#5ae19f>!"
+unfrozen-invoker: "<#5ae19f>You have unfrozen <#f0f0f0>[player]<#5ae19f>!"
+frozen-broadcast: "<#a0a0a0>[player] was frozen by [invoker]!"
+unfrozen-broadcast: "<#a0a0a0>[player] was unfrozen by [invoker]!"
+player-immune: "<#ffd45e>[player] is immune to being frozen!"
+cannot-damage: "<#ff4a4a>You can't damage <#f0f0f0>[player] <#ff4a4a>because they are frozen!"
+freeze-usage: "<#ff4a4a>Usage: <#f0f0f0>/freeze <player>"
+unfreeze-usage: "<#ff4a4a>Usage: <#f0f0f0>/unfreeze <player>"
+already-frozen: "<#ffd45e>[player] is already frozen!"
+not-frozen: "<#ffd45e>[player] is not frozen!"
+config-reloaded: "<green>Configuration reloaded."

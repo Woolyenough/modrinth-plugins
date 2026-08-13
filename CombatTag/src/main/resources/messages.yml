@@ -1,0 +1,10 @@
+# All messages use MiniMessage: https://docs.advntr.dev/minimessage/format.html
+# Messages support PlaceholderAPI placeholders when it is installed.
+# This plugin's own placeholders are written in square brackets, e.g. [opponent].
+# Set a message to an empty string to disable it.
+combat-tagged: "<#cb0000>You are now in combat with [opponent]"
+in-combat-action-bar: "<#cb0000>You are in combat! <grey>(<#ffd0a8>%ct_time_left%<grey>)"
+combat-expired: "<green>You are no longer in combat"
+combat-logged-out: "[player] logged out in combat whilst fighting [opponent]!"
+command-blocked: "<red>You can't run this command while in combat!"
+config-reloaded: "<green>Configuration reloaded."

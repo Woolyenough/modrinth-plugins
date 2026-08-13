@@ -1,0 +1,23 @@
+name: PlayerFreeze
+main: wtf.wooly.playerfreeze.PlayerFreeze
+description: "A simple player freeze plugin."
+version: '${project.version}'
+website: https://modrinth.com/project/player-freeze
+source: https://github.com/Woolyenough/modrinth-plugins/tree/master/PlayerFreeze
+authors: [Woolyenough]
+api-version: '1.21'
+softdepend: [PlaceholderAPI]
+
+permissions:
+  pf.use:
+    description: Allows using /freeze and /unfreeze
+    default: op
+  pf.admin:
+    description: Grants access to PlayerFreeze admin commands
+    default: op
+  pf.immune:
+    description: Prevents a player from being frozen
+    default: op
+  pf.notify:
+    description: Receive freeze and unfreeze broadcast notifications
+    default: op

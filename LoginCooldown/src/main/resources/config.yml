@@ -1,0 +1,9 @@
+# Amount of joins allowed in the set time-frame
+joins-per: 3
+
+# In seconds
+time-frame: 450
+
+# Uses MiniMessage: https://docs.advntr.dev/minimessage/format.html
+blocked-msg: "<#ff3b3b><b>(•_•)?</b>\n\n<#ffcfb7><i>Please wait <#ffe2a3>[mins] mins</#ffe2a3> before rejoining again.</i>"
+mod-msg: "<#ff6a6a><b>AntiSpam</b> <grey>» <#ffabab>[username] <#eee0e0>was blocked for joining & leaving too much."

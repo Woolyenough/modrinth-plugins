@@ -1,0 +1,12 @@
+name: CustomMOTD
+version: '${project.version}'
+main: wtf.wooly.custommotd.CustomMOTD
+api-version: '1.21'
+authors: [Woolyenough]
+website: https://modrinth.com/project/custom-motd
+source: https://github.com/Woolyenough/modrinth-plugins/tree/master/CustomMOTD
+
+permissions:
+  custommotd.admin:
+    description: Grants access to CustomMOTD admin commands
+    default: op

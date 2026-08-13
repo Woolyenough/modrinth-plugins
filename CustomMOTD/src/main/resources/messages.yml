@@ -1,0 +1,5 @@
+# All messages use MiniMessage: https://docs.advntr.dev/minimessage/format.html
+# This plugin's own placeholders are written in square brackets, e.g. [count].
+config-reloaded: "<green>Configuration and icon reloaded."
+max-players-set: "<green>Maximum players set to [count]."
+max-players-usage: "<red>Usage: /max-players <number>"
